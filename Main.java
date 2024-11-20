@@ -82,7 +82,7 @@ public class Main {
         StudentList.add(new Student(name,rollno,address));
     }
 
-    public static void read(){ // with searching algorithm and implementing where clause 
+    public static void read(){
         for(int i=0;i<StudentList.size();i++){
         System.out.println("Record no. :- "+(i+1));
         System.out.println("|--------------------------------------------------------------------------------------------------------------------------------|");
